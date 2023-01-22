@@ -20,7 +20,6 @@
   height: 6rem;
   /* border: 1px solid blue; */
   border-radius: 50%;
-  background: lightseagreen;
 }
 
 #title {
@@ -98,4 +97,43 @@
   text-align: center;
   font-size: 0.8rem;
   color: lightgrey;
+}
+
+@media screen and (max-width: 390px) {
+  #top_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5.5rem;
+    margin-bottom: 2rem;
+    /* border: 0.5px solid blue; */
+    background: lightblue;
+  }
+
+  #title {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: blue;
+  }
+
+  #logo {
+    width: 3rem;
+    height: 3rem;
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+  }
+
+  #onglets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  #carousel {
+    border: 1px solid blue;
+    height: 10rem;
+    margin-top: 5rem;
+  }
 }
