@@ -2,16 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #top_page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 10rem;
-  /* margin-bottom: 0.5rem; */
+  height: 9rem;
+  margin-bottom: 2rem;
   /* border: 0.5px solid blue; */
   background: lightblue;
 }
@@ -44,14 +43,40 @@
   height: 2rem;
   margin-bottom: 3rem;
   /* border: 0.5px solid blue; */
+}
+
+#prestations {
+  height: 10rem;
+  margin-bottom: 3rem;
+  /* border: 0.5px solid red; */
+  /* background: lightcoral; */
+}
+
+#onglets {
+  display: flex;
+  justify-content: space-around;
+}
+
+#onglets a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
   background: lightseagreen;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #carousel {
+  border: 1px solid black;
   height: 10rem;
-  margin-bottom: 3rem;
-  border: 0.5px solid red;
-  background: lightcoral;
 }
 
 #end_page {
