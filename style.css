@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#top_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+  /* margin-bottom: 0.5rem; */
+  /* border: 0.5px solid blue; */
+  background: lightblue;
+}
+
+#logo {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* width: 3rem;
+    height: 3rem; */
+  /* border: 1px solid blue; */
+  /* border-radius: 50%; */
+}
+
+#logo img {
+  width: 6rem;
+  height: 6rem;
+  /* border: 1px solid blue; */
+  border-radius: 50%;
+  background: lightseagreen;
+}
+
+#title {
+  margin-bottom: 1rem;
+  color: blue;
+  /* text-align: center; */
+}
+
+#onglets {
+  height: 2rem;
+  margin-bottom: 3rem;
+  /* border: 0.5px solid blue; */
+  background: lightseagreen;
+}
+
+#carousel {
+  height: 10rem;
+  margin-bottom: 3rem;
+  border: 0.5px solid red;
+  background: lightcoral;
+}
+
+#end_page {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* #reseaux {
+  height: 1rem;
+  margin-bottom: 0.2rem;
+  border: 0.5px solid green;
+  background: orange;
+} */
+
+#siret {
+  height: 1rem;
+  /* border: 0.5px solid green; */
+  /* background: lightgrey; */
+  text-align: center;
+  font-size: 0.8rem;
+  color: lightgrey;
+}
