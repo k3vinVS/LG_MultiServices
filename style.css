@@ -16,16 +16,6 @@
 }
 
 #logo {
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  /* width: 3rem;
-    height: 3rem; */
-  /* border: 1px solid blue; */
-  /* border-radius: 50%; */
-}
-
-#logo img {
   width: 6rem;
   height: 6rem;
   /* border: 1px solid blue; */
@@ -37,6 +27,12 @@
   margin-bottom: 1rem;
   color: blue;
   /* text-align: center; */
+}
+
+#electricite h1 {
+  text-align: center;
+  color: blue;
+  margin-bottom: 1rem;
 }
 
 #onglets {
@@ -70,12 +66,12 @@
   border: 1px solid blue;
   border-radius: 1rem;
   background: lightseagreen;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-weight: bold;
 }
 
 #carousel {
-  border: 1px solid black;
+  border: 1px solid blue;
   height: 10rem;
 }
 
