@@ -128,7 +128,7 @@
 
 /*  ----------------------------- MEDIA QUERIES -----------------------------  */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 425px) {
   /*  ----------------------------- HEADER -----------------------------  */
 
   #top_page {
