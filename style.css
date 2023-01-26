@@ -5,6 +5,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* ----------------------------- HEADER -----------------------------  */
+
 #top_page {
   display: flex;
   flex-direction: column;
@@ -27,6 +29,27 @@
   color: blue;
   /* text-align: center; */
 }
+
+/*  ----------------------------- CONTACT AREA -----------------------------  */
+#contact_area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#contact {
+  width: 13rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/*  ----------------------------- ONGLETS -----------------------------  */
 
 #electricite h1 {
   text-align: center;
@@ -69,10 +92,14 @@
   font-weight: bold;
 }
 
+/*  ----------------------------- CAROUSEL -----------------------------  */
+
 #carousel {
   border: 1px solid blue;
   height: 10rem;
 }
+
+/* FOOTER */
 
 #end_page {
   display: flex;
@@ -99,13 +126,17 @@
   color: lightgrey;
 }
 
+/*  ----------------------------- MEDIA QUERIES -----------------------------  */
+
 @media screen and (max-width: 390px) {
+  /*  ----------------------------- HEADER -----------------------------  */
+
   #top_page {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 5.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     /* border: 0.5px solid blue; */
     background: lightblue;
   }
@@ -124,12 +155,16 @@
     border-radius: 50%;
   }
 
+  /*  ----------------------------- ONGLETS -----------------------------  */
+
   #onglets {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
   }
+
+  /*  ----------------------------- CAROUSEL -----------------------------  */
 
   #carousel {
     border: 1px solid blue;
