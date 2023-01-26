@@ -26,7 +26,7 @@
 
 #title {
   margin-bottom: 1rem;
-  color: blue;
+  color: #355ded;
   /* text-align: center; */
 }
 
@@ -40,20 +40,60 @@
 #contact {
   width: 13rem;
   height: 2rem;
-  border: 1px solid black;
+  border: 1px solid #3f9c35;
   border-radius: 1rem;
-  background-color: lightgreen;
+  background-color: #3f9c35;
+  color: #355ded;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  cursor: pointer;
+}
+
+#modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#contact_modal {
+  width: 15rem;
+  height: 25rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+#modal_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  border: 1px solid blue;
+  height: 15rem;
+}
+
+.text_logo {
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
 }
 
 /*  ----------------------------- ONGLETS -----------------------------  */
 
 #electricite h1 {
   text-align: center;
-  color: blue;
+  color: #1f274a;
   margin-bottom: 1rem;
 }
 
@@ -85,11 +125,12 @@
   align-items: center;
   width: 7rem;
   height: 2rem;
-  border: 1px solid blue;
+  border: 1px solid #2a9d8f;
   border-radius: 1rem;
-  background: lightseagreen;
+  background: #2a9d8f;
   /* cursor: pointer; */
   font-weight: bold;
+  color: #e9c46a;
 }
 
 /*  ----------------------------- MAIN -----------------------------  */
