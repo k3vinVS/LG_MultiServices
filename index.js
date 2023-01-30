@@ -1,10 +1,17 @@
-const modal = document.getElementById('modal');
-const contactButton = document.getElementById('contact');
+const bgModal = document.querySelector(".bg_modal");
+const modal = document.getElementById("modal");
+const closeButton = document.querySelector(".close");
+const contactButton = document.getElementById("contact");
 
-// console.log(contactButton);
+console.log(closeButton);
 
-contactButton.addEventListener('click', launchModal);
+contactButton.addEventListener("click", launchModal);
+closeButton.addEventListener("click", closeModal);
 
-function launchModal(){
-    modal.style.display = 'flex'; // Permet l'affichage de la modale
+function launchModal() {
+  bgModal.style.display = "block"; // Permet l'affichage de la modale
+}
+
+function closeModal() {
+  bgModal.style.display = "none"; // Permet de fermer la modale
 }
