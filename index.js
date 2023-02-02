@@ -3,7 +3,7 @@ const modal = document.getElementById("modal");
 const closeButton = document.querySelector(".close");
 const contactButton = document.getElementById("contact");
 
-console.log(closeButton);
+console.log(bgModal);
 
 contactButton.addEventListener("click", launchModal);
 closeButton.addEventListener("click", closeModal);

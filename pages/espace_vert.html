@@ -14,7 +14,7 @@
   <body>
     <header id="top_page">
       <a href="../index.html">
-        <img src="../images/logo.png" id="logo" alt="logo" />
+        <img src="../images/logo.png" class="logo" alt="logo" />
       </a>
       <div id="title">
         <h1>LG Multi Services</h1>
@@ -34,7 +34,58 @@
       <div id="contact">CONTACT</div>
     </div>
 
-    <main id="electricite">
+    <!-- MODALE -->
+    <div class="bg_modal">
+      <div id="modal">
+        <div id="contact_modal">
+          <!-- LOGO ENTREPRISE -->
+          <div id="logo_modal">
+            <div id="logo_entreprise">
+              <img src="../images/logo.png" class="logo" alt="logo" />
+            </div>
+            <div class="close_modal">
+              <img src="../images/close.svg" alt="" class="close" />
+            </div>
+          </div>
+          <!-- LIENS CONTACT -->
+          <div id="modal_content">
+            <span class="text_logo"
+              ><img
+                src="../images/telephone-call.png"
+                alt="facebook logo"
+                class="icons"
+              />Numéro de téléphone</span
+            >
+            <span class="text_logo"
+              ><img
+                src="../images/facebook.png"
+                alt="facebook logo"
+                class="icons"
+              />Page facebook</span
+            >
+            <span class="text_logo"
+              ><img
+                src="../images/instagram.png"
+                alt="facebook logo"
+                class="icons"
+              />Page instagram</span
+            >
+            <span class="text_logo"
+              ><img
+                src="../images/tik-tok.png"
+                alt="facebook logo"
+                class="icons"
+              />Page tik-tok</span
+            >
+          </div>
+          <div class="map">
+            <img src="../images/map.jpg" alt="map" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="category">
       <h1>Prestations d'espaces vert</h1>
       <section id="carousel"></section>
     </main>
@@ -43,5 +94,7 @@
       <div id="reseaux"></div>
       <div id="siret">Entreprise LG Multi Services - N. siret: 1234567890</div>
     </footer>
+
+    <script src="../index.js"></script>
   </body>
 </html>

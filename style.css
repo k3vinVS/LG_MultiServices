@@ -155,9 +155,9 @@
 
 /*  ----------------------------- ONGLETS -----------------------------  */
 
-#electricite h1 {
+.category h1 {
   text-align: center;
-  color: #1f274a;
+  color: lightseagreen;
   margin-bottom: 1rem;
 }
 
