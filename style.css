@@ -199,7 +199,6 @@
 /*  ----------------------------- MAIN -----------------------------  */
 
 #carousel {
-  /* border: 1px solid blue; */
   height: 20rem;
   background: rgba(31, 178, 170, 0.2);
 }
@@ -220,15 +219,16 @@
 }
 
 #carousel #map {
-  height: 9rem;
-  margin: 1rem;
+  height: 15rem;
+  /* margin: 1rem; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 #map img {
-  width: 30%;
+  width: 40%;
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
@@ -258,6 +258,7 @@
   text-align: center;
   font-size: 0.8rem;
   color: lightgrey;
+  margin-top: 1rem;
 }
 
 /*  ----------------------------- MEDIA QUERIES -----------------------------  */
@@ -307,8 +308,18 @@
   /*  ----------------------------- CAROUSEL -----------------------------  */
 
   #carousel {
-    border: 1px solid blue;
-    height: 10rem;
-    margin-top: 5rem;
+    height: 20rem;
+  }
+
+  #carousel img {
+    width: 80%;
+  }
+
+#carousel #map {
+  height: 12rem;
+}
+
+  #map img {
+    width: 100%;
   }
 }
