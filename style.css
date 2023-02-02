@@ -158,6 +158,8 @@
 .category h1 {
   text-align: center;
   color: lightseagreen;
+  background-color: lightsalmon;
+  padding: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -170,7 +172,7 @@
 }
 
 #prestations {
-  height: 5rem;
+  height: 3rem;
   margin-bottom: 1rem;
   /* border: 0.5px solid red; */
   /* background: lightcoral; */
@@ -197,8 +199,14 @@
 /*  ----------------------------- MAIN -----------------------------  */
 
 #carousel {
-  border: 1px solid blue;
-  height: 10rem;
+  /* border: 1px solid blue; */
+  height: 20rem;
+  background: rgba(31, 178, 170, 0.2);
+}
+
+#carousel img {
+  width: 30%;
+  border-radius: 1rem;
 }
 
 #background_image {
@@ -211,13 +219,18 @@
   background-size: 100%; */
 }
 
-#map {
-  height: 5rem;
-  border: 1px solid black;
-  margin-top: 1rem;
+#carousel #map {
+  height: 9rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#map img {
+  width: 30%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 
 /*  -----------------------------  FOOTER -----------------------------   */
